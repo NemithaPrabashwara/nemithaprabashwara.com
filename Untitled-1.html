@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Nemitha</title>
+        <link rel="stylesheet" href="C:\Users\HP\Desktop\HTML\new 1 .css">
+
+         </head>
+        <body>
+
+          
+
+
+
+
+
+<div class="main">
+        </body>
+        <div class="Nemitha1">
+        Nemitha<br>
+        </div>
+
+        <div class="Nemitha2">    
+        <img src="C:\Users\HP\Downloads\Nemitha.png" style=" border-radius:50%; height:250px;width:250px;">
+         </div>
+
+         <div class="Nemitha3">
+        <ul>
+            <li><b>full Name -</b> T.H.M Nemitha Prabashwara</li>
+            <li><b>School - </b> St. Thomas college Matara</li>
+            <li><b>Town - </b> Matara</li>
+            <li><b>favourute Drink - </b> Water </li>
+        </ul>
+        </div>
+<div class="submain">
+        <div class="Nemitha4">
+          Qoute About Love<br><br>
+          
+       
+
+        </div>
+
+        <div class="Nemitha5">
+        
+        <p > <font size="4" ></font><ul><li>Do not fall in love with people like me.
+            I will take you to museums, and parks,  <br>
+            and monuments, and kiss you in every beautiful <br>
+            place, so that you can never go back to them without<br>
+             tasting me like blood in your mouth.
+            I will destroy you in the most beautiful way possible.<br>
+             And when I leave you will finally understand, why storms are named after people.</li></ul></p></div></font>
+             </div><br><br>
+             <div class="submain1">
+              <div class="Nemitha6">
+                Qoute About LIFE<br><br>
+                
+             
+      
+              </div>
+      
+              <div class="Nemitha7">
+              
+              <p > <font size="4" ></font><ul><li>This life is what you make it. No matter what, you're going to mess up sometimes,<br>
+                it's a universal truth. But the good part is you get to decide how you're going to mess it up. Girls will be your friends - <br>
+                they'll act like it anyway. But just remember, some come, some go. The ones that stay with you through everything - <br>
+                they're your true best friends. Don't let go of them. Also remember, sisters make the best friends in the world.<br>
+                 As for lovers, well, they'll come and go too. And baby, I hate to say it, most of them -<br>
+                  actually pretty much all of them are going to break your heart, but you can't give up because if you give up,<br>
+                   you'll never find your soulmate. You'll never find that half who makes you whole and that goes for everything.<br>
+                    Just because you fail once, doesn't mean you're gonna fail at everything. Keep trying, hold on, and always, always,<br>
+                     always believe in yourself, because if you don't, then who will, sweetie? So keep your head high, keep your chin up,<br>
+                      and most importantly, keep smiling,<br>
+                 because life's a beautiful thing and there's so much to smile about</li></ul></p></div></font>
+                   </div><br><br>
+             <footer>written By Nemitha Prabashwara</footer>
+            </div>
+           
+
+            <script>
+                var snow_fall_rate = 5 //decrease for faster fall speed
+                function snow() {  
+                  var b = document.createElement('div')
+                  var size = (Math.random()*10) + 5
+                  b.className = 'flake'
+                  b.style.width = size + 'px'
+                  b.style.height = size + 'px'
+                  b.style.position = 'fixed'
+                  b.style.zIndex = '9999'
+                  b.style.left = Math.random()*window.innerWidth + 'px'
+                  b.style.top = '-20px'
+                  b.style.borderRadius = '50%'
+                  b.style.background = 'white' 
+                  b.style.opacity = '.5' 
+                  b.style.filter = Math.random() < .5 ? 'blur(3px)' : 'blur(1px)'
+                  b.style.transition = Math.random < .5 ? snow_fall_rate*.75 + 's' : snow_fall_rate + 's'
+                  b.style.transitionTimingFunction = 'ease-in'
+                  document.body.appendChild(b)
+                 
+                  setTimeout(function(){
+                    var flakes = document.querySelectorAll('.flake')
+                    var flake = flakes[flakes.length - 1]  
+                    var flake_loc = flake.getBoundingClientRect()
+                    flake.style.top = '105%'
+                    flake.style.left = Math.random() < .5 ? flake_loc.left - 150 + 'px' : flake_loc.left + 150 + 'px'
+                  },10)  
+                 
+                  var flakes = document.getElementsByClassName('flake')
+                  for(var i=0;i<flakes.length;i++){
+                    if(flakes[i].getBoundingClientRect().top > window.innerHeight) {
+                      flakes[i].remove()
+                    }      
+                  }
+                  setTimeout(function(){ snow() },200)
+                }
+                snow()
+                </script>
+                
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </body>
+            
+ 
+</html>
+
